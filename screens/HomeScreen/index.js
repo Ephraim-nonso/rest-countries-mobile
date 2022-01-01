@@ -1,0 +1,19 @@
+import React from "react";
+import { View } from "react-native";
+import Countries from "../../components/Countries";
+import FilterRegion from "../../components/FilterRegion";
+import Header from "../../components/Header";
+import Search from "../../components/Search";
+
+function HomeScreen() {
+  return (
+    <View>
+      <Header />
+      <Search />
+      <FilterRegion />
+      <Countries />
+    </View>
+  );
+}
+
+export default HomeScreen;
