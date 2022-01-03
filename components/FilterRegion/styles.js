@@ -7,9 +7,10 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 20,
     marginHorizontal: 20,
+    marginVertical: 5,
   },
   title: {
-    fontSize: 24,
-    fontWeight: "bold",
+    fontSize: 18,
+    fontWeight: "700",
   },
 });
